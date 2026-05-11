@@ -115,7 +115,15 @@ body {
   padding: 10px 18px;
   font-weight: 600;
 }
+.CCCicon{
+  color: black;
+  font-size: 24px;
+  padding: 10px;
+}
 
+.CCCicon:hover{
+  color: rgb(134, 2, 2);
+}
 /* MOBILE FIX */
 @media (max-width: 991px) {
   .navbar-collapse {
