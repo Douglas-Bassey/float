@@ -220,6 +220,19 @@ body {
   overflow: hidden;
 }
 
+@media (max-width: 769px) {
+  
+  .csf-sidebar,
+  .csf-nav-link{
+
+    color: white;
+
+    span{
+      color: white;
+    }
+  }
+}
+
 .csf-nav-link svg {
   width: 18px;
   height: 18px;

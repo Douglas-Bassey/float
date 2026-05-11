@@ -32,62 +32,68 @@
           />
         </div>
 
-        <button
-          class="csf-sidebar__toggle ms-auto"
+        
+          <a href="#sideJAMES"  class="csf-sidebar__toggle ms-auto display-lg-none"
           id="sidebarToggle"
+          aria-controls="sideJAMES"
           aria-label="Toggle sidebar"
-        >
+          data-bs-toggle="offcanvas">
+
           <i class="bi bi-list"></i>
-        </button>
+          </a>
+       
       </div>
 
       <!-- Nav -->
-      <nav class="csf-sidebar__nav">
+      <nav class="csf-sidebar__nav offcanvas-md  offcanvas-start display-block display-lg-none" tabindex="1" aria-labelledby="sidebar-label" id="sideJAMES" style="background-color: rgb(0, 0, 31);">
         <p class="csf-sidebar__section-label">Main</p>
+
+
+        
 
         <a href="#overview" class="csf-nav-link csf-nav-link--active">
           <i class="bi bi-columns-gap"></i>
-          <span>Dashboard</span>
+          Dashboard
         </a>
         <a href="#timeline" class="csf-nav-link">
           <i class="bi bi-diagram-2"></i>
-          <span>Project Timeline</span>
+          Project Timeline
         </a>
         <a href="#updates" class="csf-nav-link">
           <i class="bi bi-image"></i>
-          <span>Site Updates</span>
+          Site Updates
         </a>
 
         <p class="csf-sidebar__section-label mt-3">Finance</p>
 
         <a href="#finance" class="csf-nav-link">
           <i class="bi bi-wallet"></i>
-          <span>Financial Panel</span>
+          Financial Panel
         </a>
         <a href="#documents" class="csf-nav-link">
           <i class="bi bi-folder"></i>
-          <span>Document Vault</span>
+          Document Vault  
         </a>
 
         <p class="csf-sidebar__section-label mt-3">Quality</p>
 
         <a href="#materials" class="csf-nav-link">
           <i class="bi bi-shield-check"></i>
-          <span>Material Verify</span>
+          Material Verify
         </a>
         <a href="#communication" class="csf-nav-link">
           <i class="bi bi-chat"></i>
-          <span>Messages</span>
+          Messages
           <span class="csf-badge ms-auto">3</span>
         </a>
 
         <a href="engine.html" class="csf-nav-link">
           <i class="bi bi-robot"></i>
-          <span>Engine Chatbot</span>
+          Engine Chatbot
         </a>
         <a href="#issues" class="csf-nav-link">
           <i class="bi bi-exclamation-triangle"></i>
-          <span>Issues & Requests</span>
+          Issues & Requests
         </a>
       </nav>
 
