@@ -22,7 +22,28 @@ body {
     margin-top: 5px;
   }
 }
+.backtp{
+  display: flex;
+  justify-content: end;
+  /* background-color: red; */
+  /* width: 100px; */
+ 
+  padding: 10px;
 
+  a{
+    background-color: red;
+    padding: 10px;
+     border-radius: 100px;
+
+    i{
+      text-align: left;
+      color: white;
+      padding: 10px;
+    }
+  }
+
+  
+}
 .topbar i {
   color: #f50101;
   margin-right: 6px;
