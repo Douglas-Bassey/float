@@ -395,6 +395,19 @@ body {
   top: 0;
   z-index: 90;
   gap: 16px;
+
+  .live{
+    border: 1px solid rgb(189, 187, 187);
+    border-radius: 10px;
+    /* height: 35px; */
+
+    i{
+      width: 30px;
+    height: 30px;
+    margin: auto;
+    padding: 0 10px;
+    }
+  }
 }
 
 .csf-header__search {
@@ -944,7 +957,7 @@ border-left: none;
   overflow: hidden;
   box-shadow: var(--csf-shadow);
   transition: box-shadow 0.2s, transform 0.2s;
-  height: 350px;
+  height: 390px;
 }
 
 .csf-update-card:hover {
